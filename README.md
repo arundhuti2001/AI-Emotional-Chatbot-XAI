@@ -10,7 +10,7 @@ A local AI chatbot built with Python, Tkinter, and Ollama that:
 
 ---
 
-## 🚀 Features
+## Features
 
 * Human-like conversation (via local LLM)
 * Emotion detection (-2 to +2 scale)
@@ -20,7 +20,7 @@ A local AI chatbot built with Python, Tkinter, and Ollama that:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ChatBot/
@@ -48,7 +48,7 @@ ChatBot/
 
 ## ⚙️ Setup Instructions
 
-### ✅ 1. Clone or Download the Project
+###  1. Clone or Download the Project
 
 ```bash
 git clone <your-repo-url>
@@ -57,7 +57,7 @@ cd ChatBot
 
 ---
 
-### ✅ 2. Install Python Dependencies
+### 2. Install Python Dependencies
 
 Make sure Python 3.10+ is installed.
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-### ✅ 3. Install Ollama (Local LLM)
+###  3. Install Ollama (Local LLM)
 
 This project uses a local LLM via Ollama.
 
@@ -86,7 +86,7 @@ Invoke-WebRequest https://ollama.com/install.ps1 -OutFile install.ps1
 
 ---
 
-### ✅ 4. Download the Model
+###  4. Download the Model
 
 Run the following command to download the model (one-time setup):
 
@@ -98,7 +98,7 @@ ollama run llama3
 
 ---
 
-### ✅ 5. Run the Chatbot
+###  5. Run the Chatbot
 
 ```bash
 python main.py
@@ -106,7 +106,7 @@ python main.py
 
 ---
 
-## 💬 Usage
+##  Usage
 
 * Type messages in the UI
 * Chat naturally with the AI
@@ -115,7 +115,7 @@ python main.py
 
 ---
 
-## 📊 Emotion Scale
+##  Emotion Scale
 
 | Score | Meaning       |
 | ----- | ------------- |
@@ -127,7 +127,7 @@ python main.py
 
 ---
 
-## 🧠 Explainable AI
+##  Explainable AI
 
 This project uses LIME to explain:
 
@@ -148,7 +148,7 @@ Explanation:
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * Ensure Ollama is running at:
 
@@ -160,7 +160,7 @@ Explanation:
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 * Ollama for local LLM support
 * LIME for explainability
